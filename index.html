@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/pro.jpg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mosh</title>
+
+    <!-- Font Awesome File  -->
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- CSS file -->
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+</head>
+
+<body>
+    <!-- Header Section  -->
+
+    <header>
+
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+
+        <a href="#" class="logo">Mypathology</a>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#products">Package</a>
+                <a href="#review">Review</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="icons">
+                <a href="#cart" class="fas fa-heart wishlist" ></a>
+                <a href="#cart" class="fas fa-shopping-cart shop" >
+                    <span id="item-selected"></span>
+                </a> 
+            </div>
+        
+    </header>
+
+
+
+    <!-- Home Section  -->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Beautiful Flowers</h3>
+            <span>Decorate your home with flowers</span>
+            <p>The beauty of flowers is forever captured in the way floral designers make them a part of our life's memories so We Deliver Smiles To Your Loved Ones Across India.</p>
+            <a href="#products" class="btn">Shop</a>
+        </div>
+    </section>
+
+
+
+    <!-- About Section  -->
+
+    <section class="about" id="about">
+        <h1 class="heading"><span>About</span> Us</h1>
+        <div class="row">
+
+            <div class="video-container">
+                <video src="images/pexels-maksim-goncharenok-5642528.mp4" loop autoplay muted></video>
+                <h3>Flowers at their Best</h3>
+            </div>
+            <div class="content">
+                <h3>Why Us?</h3>
+                <p>Encapsulated with the best of colors and fragrance, these can send a wish of well being, uplift
+                    spirits, and can say the unspoken profoundly.</p>
+                <p> So, if you're seeking a token for special moments that can't be put into words, well, then order
+                    these flowers from the evergreen array available just for you.</p>
+                <a href="#about" class="btn">More About US</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Icon Section  -->
+
+    <section class="icons-container">
+
+        <div class="icons">
+            <img src="./images/icon-1.png">
+            <div class="info">
+                <h3>Free Delivery</h3>
+                <span> on all orders</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="./images/icon-2.png">
+            <div class="info">
+                <h3>10 days return</h3>
+                <span>cashback guarantee</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="./images/icon-3.png">
+            <div class="info">
+                <h3>offer & gift</h3>
+                <span> on all orders</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="./images/icon-4.png">
+            <div class="info">
+                <h3>secure payment</h3>
+                <span>protected by paypal</span>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- Product section  -->
+
+    <section class="products" id="products">
+        <h1 class="heading">Latest <span> products</span></h1>
+        <div class="box-container_product">
+            <div class="boxpro" id="item1">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img class="productImage" src="./images/image-8.jpg" alt="Flower Pot">
+                    <div class="icons">
+                        <button class="fas fa-heart wishlist" ></button>
+                        <button  class="cart-btn shop">add to cart</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3 class="productTitle">Flower Pot (Mix)</h3>
+                    <span class="quantity">Quantity:</span>
+                    <input class='quantityInput' type="number" min="1" max="20" value="1">
+                    <div class="pricing">
+                        <div class="pri">Price :₹ </div>
+                        <div class="price"> 450 </div>
+                    </div>
+                    <div class="pricecut" > ₹ 500</div>
+                </div>
+            </div>
+
+            <div class="boxpro" id="item2">
+                <span class="discount">-15%</span>
+                <div class="image">
+                    <img class="productImage" src="./images/image-77.jpg" alt="Lily">
+                    <div class="icons">
+                        <button class="fas fa-heart wishlist"></button>
+                        <button  class="cart-btn shop">add to cart</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3 class="productTitle">Lily</h3>
+                    <span class="quantity">Quantity</span>
+                    <input class='quantityInput' type="number" min="1" max="20" value="1">
+                    <div class="pricing"> 
+                        <div class="pri">Price :₹</div>
+                        <div class="price"> 340 </div>
+                    </div>
+                    <div class="pricecut" >₹ 400</div>
+                </div>
+            </div>
+
+            <div class="boxpro" id="item3">
+                <span class="discount">-5%</span>
+                <div class="image">
+                    <img class="productImage" src="./images/image-2.jpg" alt="Common Daisy">
+                    <div class="icons">
+                        <button class="fas fa-heart wishlist"></button>
+                        <button class="cart-btn shop">add to cart</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3 class="productTitle">Common Daisy</h3>
+                    <span class="quantity">Quantity</span>
+                    <input class='quantityInput' type="number" min="1" max="20" value="1">
+                    <div class="pricing"> 
+                        <div class="pri">Price :₹</div>
+                        <div class="price"> 114 </div>
+                    </div>
+                    <div class="pricecut" >₹ 120</div>
+                </div>
+            </div> 
+
+            <div class="boxpro" id="item4">
+                <span class="discount">-12%</span>
+                <div class="image">
+                    <img class="productImage" src="./images/image-3.jpg" alt="Showy Baby-breadth">
+                    <div class="icons">
+                        <button class="fas fa-heart wishlist"></button>
+                        <button  class="cart-btn shop">add to cart</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3 class="productTitle">Showy Baby-breadth</h3>
+                    <span class="quantity">Quantity</span>
+                    <input class='quantityInput' type="number" min="1" max="20" value="1">
+                    <div class="pricing"> 
+                        <div class="pri">Price :₹</div>
+                        <div class="price"> 122 </div>
+                    </div>
+                    <div class="pricecut" >₹ 144</div>
+                </div>
+            </div> 
+
+            <div class="boxpro" id="item5">
+                <span class="discount">-6%</span>
+                <div class="image">
+                    <img class="productImage" src="./images/image-1.jpg" alt="White Tulip">
+                    <div class="icons">
+                        <button class="fas fa-heart wishlist"></button>
+                        <button  class="cart-btn shop">add to cart</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3 class="productTitle">White Tulip</h3>
+                    <span class="quantity">Quantity</span>
+                    <input class='quantityInput' type="number" min="1" max="20" value="1">
+                    <div class="pricing"> 
+                        <div class="pri">Price :₹</div>
+                        <div class="price"> 188 </div>
+                    </div>
+                    <div class="pricecut" >₹ 200</div>
+                </div>
+            </div>
+
+            <div class="boxpro" id="item6">
+                <span class="discount">-9%</span>
+                <div class="image">
+                    <img class="productImage" src="./images/image-4.png" alt="Pink Rose">
+                    <div class="icons">
+                        <button class="fas fa-heart wishlist"></button>
+                        <button  class="cart-btn shop">add to cart</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3 class="productTitle">Pink Rose</h3>
+                    <span class="quantity">Quantity</span>
+                    <input class='quantityInput' type="number" min="1" max="20" value="1">
+                    <div class="pricing"> 
+                        <div class="pri">Price :₹</div>
+                        <div class="price"> 221 </div>
+                    </div>
+                    <div class="pricecut" >₹ 300</div>
+                </div>
+            </div> 
+
+            <div class="boxpro" id="item7">
+                <span class="discount">-11%</span>
+                <div class="image">
+                    <img class="productImage" src="./images/image-5.jpg" alt="Oxeye Daisy">
+                    <div class="icons">
+                        <button class="fas fa-heart wishlist"></button>
+                        <button  class="cart-btn shop">add to cart</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3 class="productTitle">Oxeye Daisy</h3>
+                    <span class="quantity">Quantity</span>
+                    <input class='quantityInput' type="number" min="1" max="20" value="1">
+                    <div class="pricing"> 
+                        <div class="pri">Price :₹</div>
+                        <div class="price"> 212 </div>
+                    </div>
+                    <div class="pricecut" >₹ 233</div>
+                </div>
+            </div>
+
+            <div class="boxpro" id="item8">
+                <span class="discount">-20%</span>
+                <div class="image">
+                    <img class="productImage" src="./images/image-7.jpg" alt="Gypsophila repens">
+                    <div class="icons">
+                        <button class="fas fa-heart wishlist"></button>
+                        <button  class="cart-btn shop">add to cart</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3 class="productTitle">Gypsophila repens</h3>
+                    <span class="quantity">Quantity</span>
+                    <input class='quantityInput' type="number" min="1" max="20" value="1">
+                    <div class="pricing"> 
+                        <div class="pri">Price :₹</div>
+                        <div class="price"> 380</div>
+                    </div>
+                    <div class="pricecut" >₹ 400</div>
+                </div>
+            </div>
+
+            <div class="boxpro" id="item9">
+                <span class="discount">-13%</span>
+                <div class="image">
+                    <img class="productImage" src="./images/image-9.jpg" alt="Sunflower">
+                    <div class="icons">
+                        <button class="fas fa-heart wishlist"></button>
+                        <button  class="cart-btn shop">add to cart</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3 class="productTitle">Sunflower</h3>
+                    <span class="quantity">Quantity</span>
+                    <input class='quantityInput' type="number" min="1" max="20" value="1">
+                    <div class="pricing"> 
+                        <div class="pri">Price :₹</div>
+                        <div class="price"> 149 </div>
+                    </div>
+                    <div class="pricecut" >₹ 179</div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="cart" id="cart">
+            <div class="title"><h1 class="heading">CART</h1><hr/>
+                <div id="title" class="productArea"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Review Section  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> customer's <span>review</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>I've bought a few things online and they've all come quickly, securely packaged and been in excellent
+                    condition. Can't recommend enough!!</p>
+                <div class="user">
+                    <img src="images/p-2.png" alt="">
+                    <div class="user-info">
+                        <h3>Harry</h3>
+                        <span>happy customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>My order arrived today, flowers in perfect state, carefully wrapped. I will order more for sure,
+                    really happy with plant and service, as it was delivered straight to my door. ❤</p>
+                <div class="user">
+                    <img src="images/p-1.jpg" alt="">
+                    <div class="user-info">
+                        <h3>Shanaya</h3>
+                        <span>happy customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>I received my beautiful Scindapsus aureum - Devil’s Ivy- Pothos on time and in a fabulous pot which I
+                    did not expect. So happy with my purchase. I would highly recommend this company. Thank you 😊</p>
+                <div class="user">
+                    <img src="images/p-3.jpg" alt="">
+                    <div class="user-info">
+                        <h3>Dhruv</h3>
+                        <span>happy customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>Contact</span> Us</h1>
+        <div class="row">
+
+            <form action="">
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="number" placeholder="number" class="box">
+                <textarea name="" class="box" placeholder="message" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+
+            <div class="image">
+                <img src="./images/cute-hand-drawn-bee-with-honey-jar_79603-438.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer Section  -->
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#products">Products</a>
+                <a href="#review">Review</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="box">
+                <h3>Some Other Links</h3>
+                <a href="#">My Account</a>
+                <a href="#">My Order</a>
+                <a href="#">My Favourite</a>
+            </div>
+
+            <div class="box">
+                <h3>Location</h3>
+                <a href="#">Delhi</a>
+                <a href="#">Mumbai</a>
+                <a href="#">Bangalore</a>
+            </div>
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#">+345-543-xyz</a>
+                <a href="#">example@gmail.mail</a>
+                <a href="#">Delhi, India - 980Pin</a>
+                <img src="./images/payment.png" alt="">
+            </div>
+        </div>
+        <div class="credit"> Build By Mosh</div>
+    </section>
+</body>
+<script src="./js/script.js"></script>
+</html>
